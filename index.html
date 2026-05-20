@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h2 class="logo">My Portfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <img src="" alt="Profile Photo" class="profile-img">
+
+        <h1>Deepak Hs</h1>
+
+        <p>MCA Student | Web Developer</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <p>
+            I am an MCA student passionate about web development and software
+            technologies. I enjoy building responsive websites and learning
+            modern programming skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Flask</div>
+            <div class="skill">GitHub</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>NCC Cadet Management System</h3>
+
+                <p>
+                    Role-based web application for managing cadet attendance
+                    and records.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/mwvzvynj" method="POST">
+
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <a href="https://github.com/deepu2431" target="_blank">GitHub</a>
+            <a href="https://in.linkedin.com/in/deepak-hs-96755b3a7" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Deepak Hs| Portfolio Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
